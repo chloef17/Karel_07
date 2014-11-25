@@ -3,7 +3,7 @@
 
    import edu.fcps.karel2.Display;
    import javax.swing.JOptionPane;
-    public class Lab07
+   public class Lab07
    {
        public static void main(String[] args) 
       {
@@ -20,6 +20,7 @@
          {
             Mountain.explore( new Climber(x) );
          }
+         
          else if(type.equals("HillClimber"))
          {
             Mountain.explore( new HillClimber(x) );
